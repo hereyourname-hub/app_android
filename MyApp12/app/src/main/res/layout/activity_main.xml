@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/primary_color"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/tv_started_title"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/started_title"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_started_sub_title"
+        android:layout_width="362dp"
+        android:layout_height="66dp"
+        android:fontFamily="@font/montserratregular"
+        android:lineHeight="20sp"
+        android:layout_marginTop="14dp"
+        android:text="@string/stated_sub_title"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_started_title" />
+
+
+    <ImageView
+        android:id="@+id/img_ill_started"
+        android:layout_width="371dp"
+        android:layout_height="675dp"
+        android:contentDescription="@string/illustration_img"
+        android:src="@drawable/st_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        style="@style/ButtonWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_register"
+        android:layout_marginBottom="30dp"
+        style="@style/ButtonWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

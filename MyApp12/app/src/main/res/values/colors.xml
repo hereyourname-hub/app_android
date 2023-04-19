@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_color">#5A72BB</color>
+    <color name="Cornflower">#83C5EA</color>
+    <color name="Lavender">#C592F7</color>
+    <color name="GumLeaf">#B3CFC2</color>
+    <color name="Grey">#777776</color>
+    <color name="Light_grey">#D1D0CE</color>
+</resources>
